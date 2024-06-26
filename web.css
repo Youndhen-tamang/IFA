@@ -1,0 +1,133 @@
+body{
+  background: #396565;
+  color: white;
+  margin-bottom: 1000px;
+}
+.body-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #E2DFD0;
+  border-bottom:  2px solid  ;
+}
+.navbar h1 span{
+  color: #00d4ec;
+}
+.navbar ul{
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+
+}
+.navbar ul li{
+  list-style: none;
+  cursor: pointer;
+}
+.hero{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:100px;padding: 0 80px;
+}
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 40%;
+}
+.hero-left h1,h2{
+  margin-bottom: -40px;
+  font-size: 52px;
+}
+.hero-left h1 span{
+  color: #00d4ec;
+}
+.hero-button{
+  display: flex;
+  gap: 50px;
+}
+.hero-hire{
+  background: #A1C398;
+  font-size: 23px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.hero-resume{
+  background: black;
+  font-size: 23px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+
+.hero-middle {
+  width: 500px;
+  height: 500px;
+  margin-right: 100px;
+}
+
+.hero-middle img{
+  width: 300px;
+  height: 300px;
+  border-radius: 250px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  background: black;
+  border-radius: 10px;
+}
+.element{
+
+  width: 100%;
+}
+.element h1{
+  color: #95D2B3;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: -10px;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  width:80%;
+  background: #151515;
+  border-radius: 30px;
+}
+.skills-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 80%;
+  text-align: center;
+  padding: 30px 50px;
+
+}
+.skills-section div{
+  box-shadow: #272829;
+  background: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 150px;
+  cursor: pointer;
+}
